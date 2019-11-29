@@ -1,0 +1,45 @@
+00/0|0:00    word2vec
+$ ./compute-accuracy ../word2vec-models/GoogleNews-vectors-negative300.bin
+capital-common-countries:
+ACCURACY TOP1: 83.60 %  (423 / 506)
+Total accuracy: 83.60 %   Semantic accuracy: 83.60 %   Syntactic accuracy: nan %
+capital-world:
+ACCURACY TOP1: 82.72 %  (1144 / 1383)
+Total accuracy: 82.95 %   Semantic accuracy: 82.95 %   Syntactic accuracy: nan %
+currency:
+ACCURACY TOP1: 39.84 %  (51 / 128)
+Total accuracy: 80.22 %   Semantic accuracy: 80.22 %   Syntactic accuracy: nan %
+city-in-state:
+ACCURACY TOP1: 74.64 %  (1739 / 2330)
+Total accuracy: 77.23 %   Semantic accuracy: 77.23 %   Syntactic accuracy: nan %
+family:
+ACCURACY TOP1: 88.60 %  (303 / 342)
+Total accuracy: 78.06 %   Semantic accuracy: 78.06 %   Syntactic accuracy: nan %
+gram1-adjective-to-adverb:
+ACCURACY TOP1: 30.91 %  (251 / 812)
+Total accuracy: 71.10 %   Semantic accuracy: 78.06 %   Syntactic accuracy: 30.91 %
+gram2-opposite:
+ACCURACY TOP1: 50.26 %  (191 / 380)
+Total accuracy: 69.75 %   Semantic accuracy: 78.06 %   Syntactic accuracy: 37.08 %
+gram3-comparative:
+ACCURACY TOP1: 91.74 %  (1222 / 1332)
+Total accuracy: 73.81 %   Semantic accuracy: 78.06 %   Syntactic accuracy: 65.93 %
+gram4-superlative:
+ACCURACY TOP1: 87.89 %  (617 / 702)
+Total accuracy: 75.06 %   Semantic accuracy: 78.06 %   Syntactic accuracy: 70.71 %
+gram5-present-participle:
+ACCURACY TOP1: 79.54 %  (692 / 870)
+Total accuracy: 75.50 %   Semantic accuracy: 78.06 %   Syntactic accuracy: 72.58 %
+gram6-nationality-adjective:
+ACCURACY TOP1: 97.07 %  (1193 / 1229)
+Total accuracy: 78.15 %   Semantic accuracy: 78.06 %   Syntactic accuracy: 78.23 %
+gram7-past-tense:
+ACCURACY TOP1: 65.59 %  (972 / 1482)
+Total accuracy: 76.53 %   Semantic accuracy: 78.06 %   Syntactic accuracy: 75.48 %
+gram8-plural:
+ACCURACY TOP1: 85.28 %  (846 / 992)
+Total accuracy: 77.23 %   Semantic accuracy: 78.06 %   Syntactic accuracy: 76.73 %
+gram9-plural-verbs:
+ACCURACY TOP1: 68.66 %  (482 / 702)
+Total accuracy: 76.77 %   Semantic accuracy: 78.06 %   Syntactic accuracy: 76.06 %
+Questions seen / total: 13190 19544   67.49 %

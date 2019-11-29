@@ -1,0 +1,46 @@
+05/9|9:28 ➜  eval-paper
+$ time ./models/word2vec/compute-accuracy models/imdb.bin < models/word2vec/questions-words.txt
+capital-common-countries:
+ACCURACY TOP1: 42.62 %  (179 / 420)
+Total accuracy: 42.62 %   Semantic accuracy: 42.62 %   Syntactic accuracy: nan %
+capital-world:
+ACCURACY TOP1: 24.54 %  (200 / 815)
+Total accuracy: 30.69 %   Semantic accuracy: 30.69 %   Syntactic accuracy: nan %
+currency:
+ACCURACY TOP1: 0.00 %  (0 / 40)
+Total accuracy: 29.73 %   Semantic accuracy: 29.73 %   Syntactic accuracy: nan %
+city-in-state:
+ACCURACY TOP1: 9.27 %  (139 / 1500)
+Total accuracy: 18.67 %   Semantic accuracy: 18.67 %   Syntactic accuracy: nan %
+family:
+ACCURACY TOP1: 52.16 %  (241 / 462)
+Total accuracy: 23.45 %   Semantic accuracy: 23.45 %   Syntactic accuracy: nan %
+gram1-adjective-to-adverb:
+ACCURACY TOP1: 8.37 %  (83 / 992)
+Total accuracy: 19.91 %   Semantic accuracy: 23.45 %   Syntactic accuracy: 8.37 %
+gram2-opposite:
+ACCURACY TOP1: 8.73 %  (66 / 756)
+Total accuracy: 18.21 %   Semantic accuracy: 23.45 %   Syntactic accuracy: 8.52 %
+gram3-comparative:
+ACCURACY TOP1: 53.68 %  (715 / 1332)
+Total accuracy: 25.69 %   Semantic accuracy: 23.45 %   Syntactic accuracy: 28.05 %
+gram4-superlative:
+ACCURACY TOP1: 19.51 %  (206 / 1056)
+Total accuracy: 24.81 %   Semantic accuracy: 23.45 %   Syntactic accuracy: 25.87 %
+gram5-present-participle:
+ACCURACY TOP1: 32.69 %  (304 / 930)
+Total accuracy: 25.69 %   Semantic accuracy: 23.45 %   Syntactic accuracy: 27.12 %
+gram6-nationality-adjective:
+ACCURACY TOP1: 55.94 %  (767 / 1371)
+Total accuracy: 29.98 %   Semantic accuracy: 23.45 %   Syntactic accuracy: 33.26 %
+gram7-past-tense:
+ACCURACY TOP1: 35.63 %  (528 / 1482)
+Total accuracy: 30.73 %   Semantic accuracy: 23.45 %   Syntactic accuracy: 33.70 %
+gram8-plural:
+ACCURACY TOP1: 45.13 %  (537 / 1190)
+Total accuracy: 32.12 %   Semantic accuracy: 23.45 %   Syntactic accuracy: 35.20 %
+gram9-plural-verbs:
+ACCURACY TOP1: 37.24 %  (324 / 870)
+Total accuracy: 32.45 %   Semantic accuracy: 23.45 %   Syntactic accuracy: 35.37 %
+Questions seen / total: 13216 19544   67.62 %
+./models/word2vec/compute-accuracy models/imdb.bin <   201.37s user 0.81s system 99% cpu 3:23.91 total

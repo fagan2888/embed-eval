@@ -1,0 +1,45 @@
+05/5|4:24 ➜  word2vec
+$ ./demo-model-accuracy.sh imdb.bin
+capital-common-countries:
+ACCURACY TOP1: 51.10 %  (139 / 272)
+Total accuracy: 51.10 %   Semantic accuracy: 51.10 %   Syntactic accuracy: nan %
+capital-world:
+ACCURACY TOP1: 37.36 %  (102 / 273)
+Total accuracy: 44.22 %   Semantic accuracy: 44.22 %   Syntactic accuracy: nan %
+currency:
+ACCURACY TOP1: 0.00 %  (0 / 40)
+Total accuracy: 41.20 %   Semantic accuracy: 41.20 %   Syntactic accuracy: nan %
+city-in-state:
+ACCURACY TOP1: 5.32 %  (37 / 695)
+Total accuracy: 21.72 %   Semantic accuracy: 21.72 %   Syntactic accuracy: nan %
+family:
+ACCURACY TOP1: 55.48 %  (233 / 420)
+Total accuracy: 30.06 %   Semantic accuracy: 30.06 %   Syntactic accuracy: nan %
+gram1-adjective-to-adverb:
+ACCURACY TOP1: 8.92 %  (83 / 930)
+Total accuracy: 22.59 %   Semantic accuracy: 30.06 %   Syntactic accuracy: 8.92 %
+gram2-opposite:
+ACCURACY TOP1: 10.15 %  (66 / 650)
+Total accuracy: 20.12 %   Semantic accuracy: 30.06 %   Syntactic accuracy: 9.43 %
+gram3-comparative:
+ACCURACY TOP1: 54.13 %  (721 / 1332)
+Total accuracy: 29.94 %   Semantic accuracy: 30.06 %   Syntactic accuracy: 29.88 %
+gram4-superlative:
+ACCURACY TOP1: 25.00 %  (189 / 756)
+Total accuracy: 29.25 %   Semantic accuracy: 30.06 %   Syntactic accuracy: 28.87 %
+gram5-present-participle:
+ACCURACY TOP1: 36.33 %  (295 / 812)
+Total accuracy: 30.18 %   Semantic accuracy: 30.06 %   Syntactic accuracy: 30.22 %
+gram6-nationality-adjective:
+ACCURACY TOP1: 60.20 %  (782 / 1299)
+Total accuracy: 35.39 %   Semantic accuracy: 30.06 %   Syntactic accuracy: 36.96 %
+gram7-past-tense:
+ACCURACY TOP1: 39.11 %  (521 / 1332)
+Total accuracy: 35.96 %   Semantic accuracy: 30.06 %   Syntactic accuracy: 37.36 %
+gram8-plural:
+ACCURACY TOP1: 54.13 %  (537 / 992)
+Total accuracy: 37.79 %   Semantic accuracy: 30.06 %   Syntactic accuracy: 39.42 %
+gram9-plural-verbs:
+ACCURACY TOP1: 43.87 %  (308 / 702)
+Total accuracy: 38.20 %   Semantic accuracy: 30.06 %   Syntactic accuracy: 39.77 %
+Questions seen / total: 10505 19544   53.75 %

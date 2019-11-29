@@ -1,0 +1,10 @@
+$ ./3-training-shakespeare.sh
+----- generating vector embeddings for ../data/corpus/db-t8-shk.txt -----
+Starting training using file ../data/corpus/db-t8-shk.txt
+Vocab size: 95553
+Words in train file: 41059840
+Alpha: 0.000005  Progress: 100.04%  Words/thread/sec: 67.56k
+real	40m59.692s
+user	151m28.434s
+sys	0m55.734s
+05/11|19:06 ➜  models

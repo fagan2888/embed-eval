@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ ! -e aclImdb ]; then
+    if [ ! -e aclImdb_v1.tar.gz ]; then
+        wget http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
+    fi
+ echo "Uncompressing aclImdb_v1.tar.gz ... "
+ time tar -zxf aclImdb_v1.tar.gz
+fi
+time python combine-imdb-files.py
+
+# move dataset into a separate folder
+mkdir ../data
+mv *.csv ../data/
+mkdir ../data/corpus/
+mv imdb-100k* ../data/corpus/

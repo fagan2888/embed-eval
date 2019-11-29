@@ -1,0 +1,27 @@
+05/5|3:56 ➜  eval-paper
+$ python sentiment.py -v ../../word2vec/text8.bin
+Couldn't import dot_parser, loading of dot files will not be possible.
+[2016-05-05 03:59:54,284] INFO: loaded data/imdb_train.csv (25000, 2) and data/imdb_test.csv (25000, 2)
+[2016-05-05 03:59:54,284] INFO: Tokenizing the training reviews text ...
+[2016-05-05 03:59:57,066] INFO: total 5920617 training tokens. Average 236 per review.
+[2016-05-05 03:59:57,066] INFO: Tokenizing the testing reviews text ...
+[2016-05-05 03:59:59,729] INFO: total 5786346 testing tokens. Average 231 per review.
+[2016-05-05 03:59:59,729] INFO: word2vec model ...
+[2016-05-05 03:59:59,729] INFO: loading projection weights from ../../word2vec/text8.bin
+[2016-05-05 04:00:00,978] INFO: loaded (71291, 300) matrix from ../../word2vec/text8.bin
+[2016-05-05 04:00:00,978] INFO: precomputing L2-norms of word weight vectors
+[2016-05-05 04:00:01,440] INFO: Retrieving vectors of training tokens ...
+[2016-05-05 04:00:01,440] INFO: review 0 of 25000
+[2016-05-05 04:00:10,485] INFO: review 20000 of 25000
+[2016-05-05 04:00:12,651] INFO: Average retrieval ERROR 4.69884 per review
+[2016-05-05 04:00:12,653] INFO: Retrieving vectors of testing tokens ...
+[2016-05-05 04:00:12,653] INFO: review 0 of 25000
+[2016-05-05 04:00:21,041] INFO: review 20000 of 25000
+[2016-05-05 04:00:23,168] INFO: Average retrieval ERROR 4.53908 per review
+[2016-05-05 04:00:23,498] INFO: Sentiment CLASSIFIERS ...
+
+[2016-05-05 04:00:23,725] INFO:         SGDClassifier accuracy: 75.44%
+[2016-05-05 04:00:30,022] INFO:         LinearSVC accuracy: 81.17%
+[2016-05-05 04:00:59,189] INFO:         LogisticRegressionCV accuracy: 81.22%
+[2016-05-05 04:00:59,487] INFO:         Perceptron accuracy: 76.62%
+[2016-05-05 04:00:59,643] INFO: Using the embeddings: ../../word2vec/text8.bin

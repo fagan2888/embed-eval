@@ -1,0 +1,45 @@
+05/5|4:33 ➜  word2vec
+$ ./demo-model-accuracy.sh text8.bin
+capital-common-countries:
+ACCURACY TOP1: 77.87 %  (394 / 506)
+Total accuracy: 77.87 %   Semantic accuracy: 77.87 %   Syntactic accuracy: nan %
+capital-world:
+ACCURACY TOP1: 58.61 %  (851 / 1452)
+Total accuracy: 63.59 %   Semantic accuracy: 63.59 %   Syntactic accuracy: nan %
+currency:
+ACCURACY TOP1: 22.39 %  (60 / 268)
+Total accuracy: 58.63 %   Semantic accuracy: 58.63 %   Syntactic accuracy: nan %
+city-in-state:
+ACCURACY TOP1: 42.01 %  (660 / 1571)
+Total accuracy: 51.75 %   Semantic accuracy: 51.75 %   Syntactic accuracy: nan %
+family:
+ACCURACY TOP1: 74.84 %  (229 / 306)
+Total accuracy: 53.47 %   Semantic accuracy: 53.47 %   Syntactic accuracy: nan %
+gram1-adjective-to-adverb:
+ACCURACY TOP1: 15.48 %  (117 / 756)
+Total accuracy: 47.56 %   Semantic accuracy: 53.47 %   Syntactic accuracy: 15.48 %
+gram2-opposite:
+ACCURACY TOP1: 22.55 %  (69 / 306)
+Total accuracy: 46.08 %   Semantic accuracy: 53.47 %   Syntactic accuracy: 17.51 %
+gram3-comparative:
+ACCURACY TOP1: 60.71 %  (765 / 1260)
+Total accuracy: 48.95 %   Semantic accuracy: 53.47 %   Syntactic accuracy: 40.96 %
+gram4-superlative:
+ACCURACY TOP1: 38.14 %  (193 / 506)
+Total accuracy: 48.16 %   Semantic accuracy: 53.47 %   Syntactic accuracy: 40.45 %
+gram5-present-participle:
+ACCURACY TOP1: 38.10 %  (378 / 992)
+Total accuracy: 46.90 %   Semantic accuracy: 53.47 %   Syntactic accuracy: 39.84 %
+gram6-nationality-adjective:
+ACCURACY TOP1: 86.07 %  (1180 / 1371)
+Total accuracy: 52.68 %   Semantic accuracy: 53.47 %   Syntactic accuracy: 52.05 %
+gram7-past-tense:
+ACCURACY TOP1: 40.62 %  (541 / 1332)
+Total accuracy: 51.17 %   Semantic accuracy: 53.47 %   Syntactic accuracy: 49.72 %
+gram8-plural:
+ACCURACY TOP1: 65.62 %  (651 / 992)
+Total accuracy: 52.40 %   Semantic accuracy: 53.47 %   Syntactic accuracy: 51.82 %
+gram9-plural-verbs:
+ACCURACY TOP1: 30.92 %  (201 / 650)
+Total accuracy: 51.26 %   Semantic accuracy: 53.47 %   Syntactic accuracy: 50.15 %
+Questions seen / total: 12268 19544   62.77 %

@@ -1,0 +1,233 @@
+{
+    "db-t8-shk": {
+        "Perceptron": [
+            "80.35%", 
+            16176, 
+            8824
+        ], 
+        "LinearSVC": [
+            "89.26%", 
+            12507, 
+            12493
+        ], 
+        "SGDClassifier": [
+            "85.14%", 
+            14846, 
+            10154
+        ], 
+        "LogisticRegressionCV": [
+            "89.24%", 
+            12482, 
+            12518
+        ], 
+        "RandomForestClassifier": [
+            "83.77%", 
+            12550, 
+            12450
+        ]
+    }
+}
+,{
+    "imdb": {
+        "Perceptron": [
+            "83.63%", 
+            4324, 
+            2593
+        ], 
+        "LinearSVC": [
+            "82.49%", 
+            4375, 
+            2542
+        ], 
+        "SGDClassifier": [
+            "85.24%", 
+            4219, 
+            2698
+        ], 
+        "LogisticRegressionCV": [
+            "82.46%", 
+            4375, 
+            2542
+        ], 
+        "RandomForestClassifier": [
+            "64.02%", 
+            4103, 
+            2814
+        ]
+    }
+}
+,{
+    "imdb-text8": {
+        "Perceptron": [
+            "83.30%", 
+            4319, 
+            2598
+        ], 
+        "LinearSVC": [
+            "81.62%", 
+            4575, 
+            2342
+        ], 
+        "SGDClassifier": [
+            "83.63%", 
+            4318, 
+            2599
+        ], 
+        "LogisticRegressionCV": [
+            "81.68%", 
+            4573, 
+            2344
+        ], 
+        "RandomForestClassifier": [
+            "67.79%", 
+            4282, 
+            2635
+        ]
+    }
+}
+,{
+    "imdb": {
+        "Perceptron": [
+            "83.63%", 
+            4324, 
+            2593
+        ], 
+        "LinearSVC": [
+            "82.49%", 
+            4375, 
+            2542
+        ], 
+        "SGDClassifier": [
+            "85.24%", 
+            4219, 
+            2698
+        ], 
+        "LogisticRegressionCV": [
+            "82.46%", 
+            4375, 
+            2542
+        ], 
+        "RandomForestClassifier": [
+            "61.75%", 
+            3762, 
+            3155
+        ]
+    }
+}
+,{
+    "imdb-text8": {
+        "Perceptron": [
+            "83.30%", 
+            4319, 
+            2598
+        ], 
+        "LinearSVC": [
+            "81.62%", 
+            4575, 
+            2342
+        ], 
+        "SGDClassifier": [
+            "83.63%", 
+            4318, 
+            2599
+        ], 
+        "LogisticRegressionCV": [
+            "81.68%", 
+            4573, 
+            2344
+        ], 
+        "RandomForestClassifier": [
+            "55.02%", 
+            3235, 
+            3682
+        ]
+    }
+}
+,{
+    "text8": {
+        "Perceptron": [
+            "67.17%", 
+            3897, 
+            3020
+        ], 
+        "LinearSVC": [
+            "71.77%", 
+            3633, 
+            3284
+        ], 
+        "SGDClassifier": [
+            "65.23%", 
+            4327, 
+            2590
+        ], 
+        "LogisticRegressionCV": [
+            "71.85%", 
+            3635, 
+            3282
+        ], 
+        "RandomForestClassifier": [
+            "55.59%", 
+            3396, 
+            3521
+        ]
+    }
+}
+,{
+    "GoogleNews-vectors-negative300.gz": {
+        "Perceptron": [
+            "84.21%", 
+            3330, 
+            3587
+        ], 
+        "LinearSVC": [
+            "78.60%", 
+            3790, 
+            3127
+        ], 
+        "SGDClassifier": [
+            "84.47%", 
+            3926, 
+            2991
+        ], 
+        "LogisticRegressionCV": [
+            "81.96%", 
+            3870, 
+            3047
+        ], 
+        "RandomForestClassifier": [
+            "51.09%", 
+            3735, 
+            3182
+        ]
+    }
+}
+,{
+    "db-t8-shk": {
+        "Perceptron": [
+            "84.82%", 
+            4232, 
+            2685
+        ], 
+        "LinearSVC": [
+            "84.92%", 
+            4367, 
+            2550
+        ], 
+        "SGDClassifier": [
+            "86.48%", 
+            4141, 
+            2776
+        ], 
+        "LogisticRegressionCV": [
+            "84.79%", 
+            4372, 
+            2545
+        ], 
+        "RandomForestClassifier": [
+            "62.87%", 
+            3670, 
+            3247
+        ]
+    }
+}
+,

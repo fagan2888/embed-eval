@@ -1,0 +1,40 @@
+
+| model |Perceptron |LinearSVC |SGDClassifier |LogisticRegressionCV |RandomForestClassifier |
+|:------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| db-t8-shk |80.35%  |89.26%  |85.14%  |89.24%  |83.77%  |
+
+
+| model |Perceptron |LinearSVC |SGDClassifier |LogisticRegressionCV |RandomForestClassifier |
+|:------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| imdb |83.63%  |82.49%  |85.24%  |82.46%  |64.02%  |
+
+
+| model |Perceptron |LinearSVC |SGDClassifier |LogisticRegressionCV |RandomForestClassifier |
+|:------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| imdb-text8 |83.30%  |81.62%  |83.63%  |81.68%  |67.79%  |
+
+
+| model |Perceptron |LinearSVC |SGDClassifier |LogisticRegressionCV |RandomForestClassifier |
+|:------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| imdb |83.63%  |82.49%  |85.24%  |82.46%  |61.75%  |
+
+
+| model |Perceptron |LinearSVC |SGDClassifier |LogisticRegressionCV |RandomForestClassifier |
+|:------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| imdb-text8 |83.30%  |81.62%  |83.63%  |81.68%  |55.02%  |
+
+
+| model |Perceptron |LinearSVC |SGDClassifier |LogisticRegressionCV |RandomForestClassifier |
+|:------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| text8 |67.17%  |71.77%  |65.23%  |71.85%  |55.59%  |
+
+
+| model |Perceptron |LinearSVC |SGDClassifier |LogisticRegressionCV |RandomForestClassifier |
+|:------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| GoogleNews-vectors-negative300.gz |84.21%  |78.60%  |84.47%  |81.96%  |51.09%  |
+
+
+| model |Perceptron |LinearSVC |SGDClassifier |LogisticRegressionCV |RandomForestClassifier |
+|:------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| db-t8-shk |84.82%  |84.92%  |86.48%  |84.79%  |62.87%  |
+

@@ -1,0 +1,46 @@
+05/9|10:00 ➜  eval-paper
+$ time ./models/word2vec/compute-accuracy models/text8.bin < models/word2vec/questions-words.txt
+capital-common-countries:
+ACCURACY TOP1: 73.52 %  (372 / 506)
+Total accuracy: 73.52 %   Semantic accuracy: 73.52 %   Syntactic accuracy: nan %
+capital-world:
+ACCURACY TOP1: 42.87 %  (1528 / 3564)
+Total accuracy: 46.68 %   Semantic accuracy: 46.68 %   Syntactic accuracy: nan %
+currency:
+ACCURACY TOP1: 18.62 %  (111 / 596)
+Total accuracy: 43.10 %   Semantic accuracy: 43.10 %   Syntactic accuracy: nan %
+city-in-state:
+ACCURACY TOP1: 36.52 %  (851 / 2330)
+Total accuracy: 40.91 %   Semantic accuracy: 40.91 %   Syntactic accuracy: nan %
+family:
+ACCURACY TOP1: 57.86 %  (243 / 420)
+Total accuracy: 41.87 %   Semantic accuracy: 41.87 %   Syntactic accuracy: nan %
+gram1-adjective-to-adverb:
+ACCURACY TOP1: 12.30 %  (122 / 992)
+Total accuracy: 38.38 %   Semantic accuracy: 41.87 %   Syntactic accuracy: 12.30 %
+gram2-opposite:
+ACCURACY TOP1: 11.90 %  (90 / 756)
+Total accuracy: 36.20 %   Semantic accuracy: 41.87 %   Syntactic accuracy: 12.13 %
+gram3-comparative:
+ACCURACY TOP1: 59.08 %  (787 / 1332)
+Total accuracy: 39.10 %   Semantic accuracy: 41.87 %   Syntactic accuracy: 32.44 %
+gram4-superlative:
+ACCURACY TOP1: 22.88 %  (227 / 992)
+Total accuracy: 37.70 %   Semantic accuracy: 41.87 %   Syntactic accuracy: 30.11 %
+gram5-present-participle:
+ACCURACY TOP1: 36.55 %  (386 / 1056)
+Total accuracy: 37.60 %   Semantic accuracy: 41.87 %   Syntactic accuracy: 31.44 %
+gram6-nationality-adjective:
+ACCURACY TOP1: 78.04 %  (1187 / 1521)
+Total accuracy: 41.98 %   Semantic accuracy: 41.87 %   Syntactic accuracy: 42.10 %
+gram7-past-tense:
+ACCURACY TOP1: 34.94 %  (545 / 1560)
+Total accuracy: 41.27 %   Semantic accuracy: 41.87 %   Syntactic accuracy: 40.74 %
+gram8-plural:
+ACCURACY TOP1: 51.80 %  (690 / 1332)
+Total accuracy: 42.10 %   Semantic accuracy: 41.87 %   Syntactic accuracy: 42.28 %
+gram9-plural-verbs:
+ACCURACY TOP1: 25.63 %  (223 / 870)
+Total accuracy: 41.30 %   Semantic accuracy: 41.87 %   Syntactic accuracy: 40.89 %
+Questions seen / total: 17827 19544   91.21 %
+./models/word2vec/compute-accuracy models/text8.bin <   356.89s user 1.61s system 99% cpu 6:01.31 total

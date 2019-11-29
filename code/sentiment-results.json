@@ -1,0 +1,116 @@
+{
+    "imdb": {
+        "Perceptron": [
+            "84.29%", 
+            14783, 
+            10217
+        ], 
+        "LinearSVC": [
+            "89.20%", 
+            12537, 
+            12463
+        ], 
+        "SGDClassifier": [
+            "86.49%", 
+            14266, 
+            10734
+        ], 
+        "LogisticRegressionCV": [
+            "89.19%", 
+            12528, 
+            12472
+        ], 
+        "RandomForestClassifier": [
+            "84.47%", 
+            12640, 
+            12360
+        ]
+    }
+,
+
+    "imdb-text8": {
+        "Perceptron": [
+            "80.11%", 
+            16252, 
+            8748
+        ], 
+        "LinearSVC": [
+            "89.12%", 
+            12510, 
+            12490
+        ], 
+        "SGDClassifier": [
+            "85.50%", 
+            14657, 
+            10343
+        ], 
+        "LogisticRegressionCV": [
+            "89.08%", 
+            12470, 
+            12530
+        ], 
+        "RandomForestClassifier": [
+            "83.94%", 
+            12720, 
+            12280
+        ]
+    }
+,
+
+    "text8": {
+        "Perceptron": [
+            "76.62%", 
+            10149, 
+            14851
+        ], 
+        "LinearSVC": [
+            "81.17%", 
+            12299, 
+            12701
+        ], 
+        "SGDClassifier": [
+            "75.44%", 
+            16009, 
+            8991
+        ], 
+        "LogisticRegressionCV": [
+            "81.22%", 
+            12316, 
+            12684
+        ], 
+        "RandomForestClassifier": [
+            "74.26%", 
+            12614, 
+            12386
+        ]
+    }
+,
+
+    "GoogleNews": {
+        "Perceptron": [
+            "78.94%", 
+            8960, 
+            16040
+        ], 
+        "LinearSVC": [
+            "86.14%", 
+            12438, 
+            12562
+        ], 
+        "SGDClassifier": [
+            "82.89%", 
+            14104, 
+            10896
+        ], 
+        "LogisticRegressionCV": [
+            "86.08%", 
+            12497, 
+            12503
+        ], 
+        "RandomForestClassifier": [
+            "79.90%", 
+            12470, 
+            12530
+        ]
+    }
+}

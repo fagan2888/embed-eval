@@ -1,0 +1,27 @@
+05/5|3:41 ➜  eval-paper
+$ python sentiment.py -v ../../word2vec/imdb.bin
+Couldn't import dot_parser, loading of dot files will not be possible.
+[2016-05-05 03:52:37,867] INFO: loaded data/imdb_train.csv (25000, 2) and data/imdb_test.csv (25000, 2)
+[2016-05-05 03:52:37,868] INFO: Tokenizing the training reviews text ...
+[2016-05-05 03:52:40,602] INFO: total 5920617 training tokens. Average 236 per review.
+[2016-05-05 03:52:40,602] INFO: Tokenizing the testing reviews text ...
+[2016-05-05 03:52:43,252] INFO: total 5786346 testing tokens. Average 231 per review.
+[2016-05-05 03:52:43,252] INFO: word2vec model ...
+[2016-05-05 03:52:43,252] INFO: loading projection weights from ../../word2vec/imdb.bin
+[2016-05-05 03:52:44,190] INFO: loaded (53195, 300) matrix from ../../word2vec/imdb.bin
+[2016-05-05 03:52:44,190] INFO: precomputing L2-norms of word weight vectors
+[2016-05-05 03:52:44,514] INFO: Retrieving vectors of training tokens ...
+[2016-05-05 03:52:44,514] INFO: review 0 of 25000
+[2016-05-05 03:52:52,987] INFO: review 20000 of 25000
+[2016-05-05 03:52:55,232] INFO: Average retrieval ERROR 1.47204 per review
+[2016-05-05 03:52:55,233] INFO: Retrieving vectors of testing tokens ...
+[2016-05-05 03:52:55,233] INFO: review 0 of 25000
+[2016-05-05 03:53:03,632] INFO: review 20000 of 25000
+[2016-05-05 03:53:05,776] INFO: Average retrieval ERROR 1.45228 per review
+[2016-05-05 03:53:05,930] INFO: Sentiment CLASSIFIERS ...
+
+[2016-05-05 03:53:06,192] INFO:         SGDClassifier accuracy: 86.49%
+[2016-05-05 03:53:14,146] INFO:         LinearSVC accuracy: 89.20%
+[2016-05-05 03:53:42,855] INFO:         LogisticRegressionCV accuracy: 89.19%
+[2016-05-05 03:53:43,146] INFO:         Perceptron accuracy: 84.29%
+[2016-05-05 03:53:43,305] INFO: Using the embeddings: ../../word2vec/imdb.bin

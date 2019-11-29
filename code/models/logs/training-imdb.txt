@@ -1,0 +1,10 @@
+05/2|11:15 ➜  embeddings-models
+$ ./demo-train-imdb.sh
+Starting training using file imdb-100k-cleaned.txt
+Vocab size: 53200
+Words in train file: 23429744
+Alpha: 0.000005  Progress: 100.07%  Words/thread/sec: 15.00k
+real	102m32.945s
+user	390m10.488s
+sys	0m49.710s
+05/2|12:58 ➜  embeddings-models

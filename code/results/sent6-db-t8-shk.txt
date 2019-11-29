@@ -1,0 +1,31 @@
+05/11|19:09 ➜  eval-paper
+$ python sentiment.py -v models/db-t8-shk.bin
+[19:09:54] INFO: word2vec model ...
+[19:09:54] INFO: loading projection weights from models/db-t8-shk.bin
+[19:09:56] INFO: loaded (95553, 300) matrix from models/db-t8-shk.bin
+[19:09:56] INFO: precomputing L2-norms of word weight vectors
+[19:09:57] INFO: loaded data/imdb_train.csv (25000, 2) and data/imdb_test.csv (25000, 2)
+[19:09:57] INFO: Tokenizing the training reviews text ...
+[19:09:59] INFO: total 5920617 training tokens. Average 236 per review.
+[19:09:59] INFO: Tokenizing the testing reviews text ...
+[19:10:02] INFO: total 5786346 testing tokens. Average 231 per review.
+[19:10:02] INFO: Retrieving vectors of training tokens ...
+[19:10:02] INFO: review 0 of 25000
+[19:10:11] INFO: review 20000 of 25000
+[19:10:14] INFO: Average retrieval ERROR 0.97524 per review
+[19:10:14] INFO: Retrieving vectors of testing tokens ...
+[19:10:14] INFO: review 0 of 25000
+[19:10:22] INFO: review 20000 of 25000
+[19:10:25] INFO: Average retrieval ERROR 0.9666 per review
+[19:10:25] INFO: Sentiment CLASSIFIERS ...
+
+[19:11:01] INFO: 	RandomForestClassifier accuracy: 83.77%
+[19:11:04] INFO: 	SGDClassifier accuracy: 85.14%
+[19:11:09] INFO: 	LinearSVC accuracy: 89.26%
+[19:11:37] INFO: 	LogisticRegressionCV accuracy: 89.24%
+[19:11:37] INFO: 	Perceptron accuracy: 80.35%
+[19:11:37] INFO: Embedding vectors: models/db-t8-shk.bin
+
+db-t8-shk
+{'Perceptron': ['80.35%', 16176, 8824], 'LinearSVC': ['89.26%', 12507, 12493], 'SGDClassifier': ['85.14%', 14846, 10154], 'LogisticRegressionCV': ['89.24%', 12482, 12518], 'RandomForestClassifier': ['83.77%', 12550, 12450]}
+05/11|19:11 ➜  eval-paper
